@@ -3,6 +3,13 @@
 
 https://play.google.com/store/apps/details?id=com.nhisearch
 
+
+前一個版本是用 ionic framework 寫的 Hybrid App, 這次更新嘗試用 JAVA 語法寫原生APP，
+
+因為對 Android 原生語法不太熟悉，希望有熱心人士協助改善這個APP，像是排版改善，或是增加一些常見APP有的基本功能
+
+------
+
 可以由代碼查詢內容，也可以由內容反查代碼  
 詳細列出各代碼代表的意義，以及中英文名稱，健保點數
 
@@ -16,10 +23,3 @@ https://play.google.com/store/apps/details?id=com.nhisearch
 
 我就把裡面的資料做成APP，讓大家快速查詢想要的資訊。
 
-
-------
-
-
-前一個版本是用 ionic framework 寫的 Hybrid App, 這次更新嘗試用 JAVA 語法寫原生APP，
-
-因為對 Android 原生語法不太熟悉，希望有熱心人士協助改善這個APP，像是排版改善，或是增加一些常見APP有的基本功能
