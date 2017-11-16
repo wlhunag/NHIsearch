@@ -3,14 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:paddingBottom="6dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="6dp">
 
     <TextView
         android:id="@+id/code"
-        android:layout_width="70dp"
+        android:layout_width="72dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:padding="3dp"
+        android:layout_marginLeft="0dp"
+        android:textAlignment="viewStart"
         android:textStyle="bold"
         android:visibility="visible" />
 
@@ -19,19 +23,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/en"
+        android:layout_alignTop="@+id/note"
         android:maxLines="1"
-        android:paddingEnd="50dp"
-        android:textSize="17sp" />
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/en"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/ch"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="8dp"
         android:layout_toEndOf="@id/code"
         android:ellipsize="end"
         android:maxLines="2"
-        android:padding="3dp"
+        android:textAlignment="viewStart"
+        android:textStyle="italic"
         android:visibility="visible" />
 
 
@@ -41,15 +49,18 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/en"
         android:layout_alignEnd="@+id/ch"
+        android:layout_marginEnd="8dp"
         android:background="@android:color/holo_orange_light"
+        android:bottomLeftRadius="6dp"
+        android:bottomRightRadius="6dp"
         android:ellipsize="end"
         android:maxLines="1"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
         android:textAlignment="viewStart"
         android:textAppearance="@style/TextAppearance.Design.Counter"
-        android:topLeftRadius="30dp"
-        android:topRightRadius="30dp"
-        android:bottomLeftRadius="30dp"
-        android:bottomRightRadius="30dp"
+        android:topLeftRadius="6dp"
+        android:topRightRadius="6dp"
         android:visibility="visible" />
 
     <TextView
