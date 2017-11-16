@@ -11,18 +11,11 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:orientation="vertical"
         android:weightSum="1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ScrollView
@@ -35,7 +28,11 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp">
 
                 <TextView
                     android:id="@+id/textView51"
@@ -44,7 +41,8 @@
                     android:backgroundTint="@android:color/darker_gray"
                     android:backgroundTintMode="src_over"
                     android:text="健保代碼"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/code2"
@@ -62,7 +60,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="中文項目名稱"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/ch2"
@@ -80,7 +79,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="英文項目名稱"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/en2"
@@ -98,7 +98,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="健保支付點數"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/money2"
@@ -116,7 +117,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="備註"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/note2"
